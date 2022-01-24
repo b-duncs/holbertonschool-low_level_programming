@@ -12,8 +12,7 @@ Read or watch:
 * [Betty Coding Style](https://intranet.hbtn.io/rltoken/8-cS66H9ZfMpMHNeygSaUA)
 * [Hash-bang under the hood](https://intranet.hbtn.io/rltoken/GoJylrWLpyoxLo9ZUNV7tw)
 * [Linus Torvalds on C vs. C++](https://intranet.hbtn.io/rltoken/lMELTnl-ydnwR7JT1BwP3A)
-
----
+   
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
@@ -30,8 +29,6 @@ What you should learn from this project:
 * What is the official C coding style and how to check your code with betty-style
 * How to find the right header to include in your source code when using a standard library function
 * How does the main function influence the return value of the program
-
----  
    
 ## Tasks:notebook:  
    
@@ -42,8 +39,6 @@ What you should learn from this project:
 * `4-putc.c`: write a C program that prints exactly `"Programming is like building a multilingual puzzle` followed by a new line  
 * `5-printf.c`: write a C program that prints exactly `with proper grammar, but the outcome is a piece of art,` followed by a new line  
 * `6-size.c`: write a C program that prints the size of various types on the computer it is compiled and run on  
-   
----
 
 ## Author
 * **Baylee Duncan** - [b-duncs](https://github.com/b-duncs)
