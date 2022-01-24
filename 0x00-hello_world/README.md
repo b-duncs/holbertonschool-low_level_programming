@@ -45,5 +45,5 @@ What you should learn from this project:
    
 ---
 
-## Author:pencil2:
+## Author:computer:
 * **Baylee Duncan** - [b-duncs](https://github.com/b-duncs)
