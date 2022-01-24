@@ -1,6 +1,5 @@
 /**
- * 4-puts.c - utilizes the puts command
- * main: program startup
+ * main - program startup
 (*
  * Description: prints the exact phrase followed by a new line)?
  * Return: return (0) is the required function signature
