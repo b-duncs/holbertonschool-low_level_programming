@@ -12,8 +12,7 @@ Read or watch:
 * [Logical operators](https://intranet.hbtn.io/rltoken/9Uah4PZmbVUiRZypFYyPqw)
 * [while loop in C](https://intranet.hbtn.io/rltoken/eX4cS2t9YSATnpypkWlAOw)
 * [While loop](https://intranet.hbtn.io/rltoken/pFFkrmN-tL4EBk016AgZbw)
-
----
+   
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
@@ -32,8 +31,7 @@ What you should learn from this project:
 * How to print variables using printf
 * What is the ASCII character set
 * What are the purpose of the gcc flags -m32 and -m64
-
----  
+  
    
 ## Tasks:notebook:   
    
@@ -48,7 +46,5 @@ What you should learn from this project:
 * `8-print_base16.c`: write a program that prints all the numbers of base 16 in lowercase  
 * `9-print_comb.c`: write a program that prints all possible combinations of single-digit numbers  
    
----
-
 ## Author
 * **Baylee Duncan** - [b-duncs](https://github.com/b-duncs)
