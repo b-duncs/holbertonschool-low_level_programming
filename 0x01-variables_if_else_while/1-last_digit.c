@@ -6,6 +6,7 @@
  * Return: return (0) is the required function signature
  */
 
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 int main(void)
