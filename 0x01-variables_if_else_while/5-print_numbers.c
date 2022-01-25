@@ -12,7 +12,8 @@ int main(void)
 
 	for (base10 = 0; base10 <= 10; base10++)
 	{
-		printf("%i\n", base10);
+		printf("%i", base10);
+		printf("\n");
 	}
 	return (0);
 }
