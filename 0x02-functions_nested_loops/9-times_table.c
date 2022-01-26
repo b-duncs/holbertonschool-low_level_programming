@@ -13,22 +13,22 @@ void times_table(void)
 
 	for (length = 0; length <= 9; length++)
 	{
+		putchar('0);
 		for (height = 0; height <= 9; height++)
 		{
-			product = (length * width);
-			if (height <= (height - 1))
+			product = length * width;
+			putchar(',');
+			putchar(' ');
+			if (product <= 9)
 			{
-				putchar(product);
-				putchar(',');
 				putchar(' ');
 			}
 			else
 			{
-				putchar(product);
-				putchar(',');
-				putchar(' ');
+				putchar((product / 10) + '0');
 			}
+			putchar((product % 10) + '0');
 		}
-	printf("\n");
+	putchar('\n');
 	}
 }
