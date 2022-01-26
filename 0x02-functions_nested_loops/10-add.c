@@ -13,5 +13,5 @@ int add(int x, int y)
 	int sum;
 
 	sum = x + y;
-	printf("%i\n", sum);
+	return (sum);
 }
