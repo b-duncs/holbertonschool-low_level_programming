@@ -13,8 +13,8 @@ void times_table(void)
 
 	for (length = 0; length <= 9; length++)
 	{
-		putchar('0);
-		for (height = 0; height <= 9; height++)
+		putchar('0');
+		for (height = 1; height <= 9; height++)
 		{
 			product = length * width;
 			putchar(',');
