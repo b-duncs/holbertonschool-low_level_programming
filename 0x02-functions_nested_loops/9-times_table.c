@@ -17,20 +17,14 @@ void times_table(void)
 			if (length <= (length - 1))
 			{
 				putchar(length * width);
-				if (length != 9 && width != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 			else
 			{
 				putchar(length * width);
-				if (length != 9 && width != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	printf("\n");
