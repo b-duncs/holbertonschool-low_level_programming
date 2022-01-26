@@ -9,6 +9,7 @@ void times_table(void)
 {
 	int length;
 	int height;
+	int product = (length * width);
 
 	for (length = 0; length <= 9; length++)
 	{
@@ -16,13 +17,13 @@ void times_table(void)
 		{
 			if (height <= (height - 1))
 			{
-				_putchar(length * height);
+				putchar(product);
 				putchar(',');
 				putchar(' ');
 			}
 			else
 			{
-				_putchar(length * height);
+				putchar(product);
 				putchar(',');
 				putchar(' ');
 			}
