@@ -17,13 +17,12 @@ void times_table(void)
 			if (length <= (length - 1))
 			{
 				printf("%i, ", (length * width));
-				putchar('\n');
 			}
 			else
 			{
 				printf("%i, ", (length * width));
-				putchar('\n');
 			}
 		}
+	printf("\n");
 	}
 }
