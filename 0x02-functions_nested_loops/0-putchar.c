@@ -1,11 +1,21 @@
-#include "main.h"
-
 /**
- * print_alphabet -
- *
- * Return: 
+ * main - program startup
+(*
+ * Description: prints `_putchar`)?
+ * Return: return (0) is the required function signature
  */
-void print_alphabet(void)
-{
 
+#include "main.h"
+int main(void)
+{
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+
+	return (0);
 }
