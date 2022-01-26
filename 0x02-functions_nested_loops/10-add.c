@@ -4,6 +4,7 @@
  * @y: second int being evaluated
 (*
  * Description: prints the nine times table starting with zero)?
+ * Return: sum
  */
 
 #include "main.h"
