@@ -9,7 +9,7 @@ void times_table(void)
 {
 	int length;
 	int height;
-	int product = (length * width);
+	product = (length * width);
 
 	for (length = 0; length <= 9; length++)
 	{
