@@ -16,7 +16,7 @@ void times_table(void)
 		putchar('0');
 		for (height = 1; height <= 9; height++)
 		{
-			product = length * width;
+			product = length * height;
 			putchar(',');
 			putchar(' ');
 			if (product <= 9)
