@@ -1,6 +1,6 @@
 /**
  * _abs - program startup
- *  @n: int being evaluated
+ * @n: int being evaluated
 (*
  * Description: computes the absolute value of an integer?
  * Return: return (0) is the required function signature
