@@ -9,12 +9,13 @@ void times_table(void)
 {
 	int length;
 	int height;
-	product = (length * width);
+	int product;
 
 	for (length = 0; length <= 9; length++)
 	{
 		for (height = 0; height <= 9; height++)
 		{
+			product = (length * width);
 			if (height <= (height - 1))
 			{
 				putchar(product);
