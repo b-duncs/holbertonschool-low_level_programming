@@ -1,11 +1,16 @@
-#include "main.h"
-
 /**
- * print_to_98 -
- *
- * Return: 
+ * add - program startup
+(*
+ * Description: prints the nine times table starting with zero)?
+ * Return: return (0) is the required function signature
  */
-void print_to_98(int n)
-{
 
+#include "main.h"
+int add(int x, int y)
+{
+	int sum
+	
+	sum = x + y
+	putchar(sum);
+	return (0);
 }
