@@ -13,6 +13,6 @@ int add(int x, int y)
 	int sum;
 
 	sum = x + y;
-	putchar(sum);
+	printf("%i\n", sum);
 	return (0);
 }
