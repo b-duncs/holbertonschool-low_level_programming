@@ -5,6 +5,7 @@
  * Return: return (0) is the required function signature
  */
 
+#include <stdio.h>
 #include "main.h"
 int main(void)
 {
