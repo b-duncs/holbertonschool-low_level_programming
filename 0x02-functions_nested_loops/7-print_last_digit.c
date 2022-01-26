@@ -1,11 +1,14 @@
-#include "main.h"
-
 /**
- * jack_bauer -
- *
- * Return: 
+ * print_last_digit - program startup
+ * @n: int being evaluated
+(*
+ * Description: prints the last digit of a number?
+ * Return: return (0) is the required function signature
  */
-void jack_bauer(void)
-{
 
+#include "main.h"
+int print_last_digit(int n)
+{
+	n = ((n % 10) + '0');
+	return (n);
 }
