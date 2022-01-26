@@ -7,22 +7,22 @@
 #include "main.h"
 void times_table(void)
 {
-	int width;
 	int length;
+	int height;
 
-	for (width = 0; width <= 9; width++)
+	for (length = 0; length <= 9; length++)
 	{
-		for (length = 0; length <= 9; length++)
+		for (height = 0; height <= 9; height++)
 		{
-			if (length <= (length - 1))
+			if (height <= (height - 1))
 			{
-				putchar(length * width);
+				_putchar(length * height);
 				putchar(',');
 				putchar(' ');
 			}
 			else
 			{
-				putchar(length * width);
+				_putchar(length * height);
 				putchar(',');
 				putchar(' ');
 			}
