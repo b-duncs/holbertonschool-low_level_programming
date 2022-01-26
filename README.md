@@ -13,4 +13,8 @@
    
 **man or help**  
    
-- `ascii`: ASCII character set encoded in octal, decimal, and hexadecimal  
+- `ascii`: ASCII character set encoded in octal, decimal, and hexadecimal 
+   
+## 0x02. C - Functions, Nested Loops  
+   
+**man or help**   
