@@ -7,8 +7,8 @@
 #include "main.h"
 void times_table(void)
 {
-	int width
-	int length
+	int width;
+	int length;
 
 	for (width = 0; width <= 10; width++)
 	{
