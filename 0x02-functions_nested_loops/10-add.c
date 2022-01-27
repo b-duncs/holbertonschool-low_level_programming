@@ -3,7 +3,7 @@
  * @x: first int being evaluated
  * @y: second int being evaluated
 (*
- * Description: prints the nine times table starting with zero)?
+ * Description: adds two integers and returns the results)?
  * Return: sum
  */
 
