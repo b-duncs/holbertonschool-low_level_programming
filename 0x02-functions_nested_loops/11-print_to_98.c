@@ -3,7 +3,6 @@
  * @n: int being evaluated
 (*
  * Description: prints all natural numbers from `n` to `98`)?
- * Return: 
  */
 
 #include "main.h"
