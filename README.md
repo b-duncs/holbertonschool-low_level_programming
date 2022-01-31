@@ -17,4 +17,10 @@
    
 ## 0x02. C - Functions, Nested Loops  
    
-**man or help**   
+**man or help**  
+   
+# 0x03. C - Debugging  
+   
+**man or help**  
+   
+  
