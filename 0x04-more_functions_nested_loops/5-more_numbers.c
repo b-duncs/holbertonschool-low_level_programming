@@ -12,9 +12,9 @@ void more_numbers(void)
 	int stepper;
 	int number;
 
-	for (stepper = '0'; stepper <= 9; stepper++)
+	for (stepper = 0; stepper <= 9; stepper++)
 	{
-		for (number = '0'; number <= '14'; number++)
+		for (number = 0; number <= 14; number++)
 		{
 			if (number <= 9)
 			{
