@@ -1,4 +1,4 @@
-# 0x04. C - More functions, more nested loops
+# 0x04. C - More Functions, More Nested Loops
 
 ## Resources:books:
 Read or watch:
