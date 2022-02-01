@@ -12,6 +12,6 @@ int mul(int a, int b)
 {
 	int product;
 
-	product = x * b;
-	return (product);
+	product = a * b;
+	return (proiduct);
 }
