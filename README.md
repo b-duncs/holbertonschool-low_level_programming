@@ -25,4 +25,8 @@
    
 ## 0x04. C - More Functions, More Nested Loops  
    
+**man or help**  
+  
+## 0x05. C - Pointers, Arrays and Strings  
+  
 **man or help** 
