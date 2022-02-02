@@ -10,12 +10,18 @@
 void print_diagonal(int n)
 {
 	int diagonal;
+	int spacer;
 
 	if (n > 0)
 	{
 		for (diagonal = 0; diagonal < n; diagonal++)
 		{
-		_putchar(47);
+			for (spacer = 0; spacer < diagonal; spacer++)
+			{
+				_putchar(32);
+			}
+			_putchar(92);
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
