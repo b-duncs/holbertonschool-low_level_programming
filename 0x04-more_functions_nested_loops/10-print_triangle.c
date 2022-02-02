@@ -1,6 +1,6 @@
 /**
  * print_triangle - program startup
- * @size: int being evaluate
+ * @size: int being evaluated
 (*
  * Description: prints a triangle followed by a new line)?
  * Return: return (0) is the required function signature
