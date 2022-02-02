@@ -12,6 +12,7 @@ void print_square(int size)
 	int square;
 	int spacer;
 
+	if (size > 0)
 	{
 		for (square = 0; square < size; square++)
 		{
@@ -21,5 +22,9 @@ void print_square(int size)
 			}
 			_putchar('\n');
 		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
