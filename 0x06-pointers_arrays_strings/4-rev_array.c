@@ -1,5 +1,5 @@
 /**
- * reverse_arra - program startup
+ * reverse_array - program startup
  * @a: pointer being evaluated
  * @n: integer being evaluated
 (*
