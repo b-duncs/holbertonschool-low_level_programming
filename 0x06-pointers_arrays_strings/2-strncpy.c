@@ -2,9 +2,9 @@
  * *_strncpy - program startup
  * @dest: first pointer being evaluated
  * @src: second pointer being evaluated
- * @n: first pointer being evaluated
+ * @n: int being evaluated
 (*
- * Description: concatenates two strings)?
+ * Description: copies two strings)?
  * Return: return (0) is the required function signature
  */
 
@@ -26,4 +26,4 @@ char *_strncpy(char *dest, char *src, int n)
 		}
 	}
 	return (dest);
-}
+
