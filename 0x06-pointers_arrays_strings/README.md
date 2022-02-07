@@ -1,4 +1,4 @@
-# 0x06. C - More pointers, arrays and strings
+# 0x06. C - More Pointers, Arrays and Strings
 
 ## Resources:books:
 Read or watch:  
