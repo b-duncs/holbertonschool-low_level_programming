@@ -1,5 +1,5 @@
 /**
- * _strcmp - program startup
+ * reverse_arra - program startup
  * @a: pointer being evaluated
  * @n: integer being evaluated
 (*
