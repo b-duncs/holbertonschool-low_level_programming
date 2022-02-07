@@ -29,4 +29,8 @@
   
 ## 0x05. C - Pointers, Arrays and Strings  
   
+**man or help**  
+   
+## 0x06. C - More Pointers, Arrays and Strings  
+  
 **man or help** 
