@@ -33,4 +33,8 @@
    
 ## 0x06. C - More Pointers, Arrays and Strings  
   
+**man or help**  
+   
+## 0x07. Even More Pointers, Arrays and Strings  
+  
 **man or help** 
