@@ -35,6 +35,10 @@
   
 **man or help**  
    
-## 0x07. Even More Pointers, Arrays and Strings  
+## 0x07. C - Even More Pointers, Arrays and Strings  
+  
+**man or help**  
+  
+## 0x08. C - Recursion  
   
 **man or help** 
