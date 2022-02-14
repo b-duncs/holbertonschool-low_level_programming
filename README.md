@@ -41,4 +41,16 @@
   
 ## 0x08. C - Recursion  
   
+**man or help**  
+   
+## 0x09. C - Static Libraries  
+  
+**man or help**  
+  
+- `ar`: create, modify, and extract from archives  
+- `ranlib`: generate an index to an archive  
+- `nm`: list symbols from object files  
+  
+## 0x0A. C - Dynamic Libraries  
+  
 **man or help** 
