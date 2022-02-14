@@ -1,4 +1,4 @@
-# 0x0A. C - Dynamic libraries
+# 0x0A. C - Dynamic Libraries
 
 ## Resources:books:
 Read or watch:
