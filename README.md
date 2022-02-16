@@ -55,6 +55,13 @@
   
 **man or help**  
   
-## 0x0B. C - argc, argv  
+## 0x0A. C - argc, argv  
   
 **man or help**   
+  
+## 0x0B. C - malloc, free  
+  
+**man or help**  
+  
+- `malloc`: allocate and free dynamic memory  
+- `free`: display amount of free and used memory in the system  
