@@ -14,17 +14,22 @@ char *_strdup(char *str)
 	unsigned int rand;
 	unsigned int strlen = 0;
 
-	array = malloc(sizeof(char) * strlen);
-
-	if (array == NULL || str == 0)
+	if (str == 0)
 	{
 		return (NULL);
 	}
 	while (str[strlen])
 	{
-		strlen++;
+		strlen++:
 	}
 	strlen++;
+
+	array = malloc(sizeof(char) * strlen);
+
+	if (array == 0)
+	{
+		return (NULL);
+	}
 	for (rand = 0; rand < strlen; rand++)
 	{
 		array[rand] = str[rand];
