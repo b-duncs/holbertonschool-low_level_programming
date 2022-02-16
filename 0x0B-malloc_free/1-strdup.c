@@ -24,6 +24,7 @@ char *_strdup(char *str)
 	{
 		strlen++;
 	}
+	strlen++;
 	for (rand = 0; rand < strlen; rand++)
 	{
 		array[rand] = str[rand];
