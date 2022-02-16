@@ -53,4 +53,8 @@
   
 ## 0x0A. C - Dynamic Libraries  
   
-**man or help** 
+**man or help**  
+  
+## 0x0B. C - argc, argv  
+  
+**man or help**   
