@@ -65,3 +65,7 @@
   
 - `malloc`: allocate and free dynamic memory  
 - `free`: display amount of free and used memory in the system  
+  
+## 0x0D. C - Preprocessor  
+  
+**man or help**   
