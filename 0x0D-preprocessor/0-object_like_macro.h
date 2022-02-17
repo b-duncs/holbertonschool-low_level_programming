@@ -1,5 +1,5 @@
-#ifndef 0-OBJECT_LIKE_MACRO.H
-#define 0-OBJECT_LIKE_MACRO.H
+#ifndef OBJECT_LIKE_MACRO.H
+#define OBJECT_LIKE_MACRO.H
 
 #include <stdio.h>
 #include <stdlib.h>
