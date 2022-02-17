@@ -5,7 +5,8 @@
  * Return: return (0) is the required function signature
  */
 
-#include "main.h"
+#include "stdlib.h"
+#include "stdio.h"
 int main(void)
 {
 	printf("%s\n", __FILE__);
