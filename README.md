@@ -68,4 +68,12 @@
   
 ## 0x0D. C - Preprocessor  
   
-**man or help**   
+**man or help** 
+  
+## 0x0C. C - More Malloc, Free  
+  
+**man or help**  
+  
+- `exit(3)`: cause normal process termination  
+- `calloc`: a memory allocator  
+- `realloc`: memory reallocator  
