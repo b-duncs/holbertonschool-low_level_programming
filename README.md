@@ -80,4 +80,8 @@
   
 ## 0x0E. C - Structures, typedef  
   
-**man or help** 
+**man or help**  
+  
+## 0x0F. C - Function Pointers  
+  
+**man or help**   
