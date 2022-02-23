@@ -1,11 +1,18 @@
-#include " files might be different from the one shown in the examples"
-
 /**
- * new_dog -
- *
- * Return: 
+ * print_dog - program startup
+ * @d: struct being evaluated
+(*
+ * Description: prints a struct dog)?
+ * Return: return (0) is the required function signature
  */
-dog_t *new_dog(char *name, float age, char *owner)
-{
 
+#include "dog.h"
+void print_dog(struct dog *d)
+{
+	if (d != NULL)
+	{
+		printf("Name: %s\n", (d->name == NULL ? "(nil)" : d->name));
+		printf("Age: %f\n", d->age);
+		printf("Owner: %s\n", (d->owner == NULL ? "(nil)" : d->owner));
+	}
 }
