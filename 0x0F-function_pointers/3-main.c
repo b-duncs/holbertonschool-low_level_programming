@@ -1,11 +1,18 @@
-#include "function_pointers.h"
+#include <stdio.h>
+#include "3-calc.h"
 
 /**
- * op_add -
+ * main - program startup
+ * @argc:
+ * @argv:
  *
- * Return: 
+ * Return: Nothing.
  */
-int op_add(int a, int b)
-{
 
+int main(int __attribute__((__unused__)) argc, char *argv[])
+{
+	int num1, num2;
+	char *op;
+
+	if (argc != 4)
 }
