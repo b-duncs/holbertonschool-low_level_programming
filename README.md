@@ -66,10 +66,6 @@
 - `malloc`: allocate and free dynamic memory  
 - `free`: display amount of free and used memory in the system  
   
-## 0x0D. C - Preprocessor  
-  
-**man or help** 
-  
 ## 0x0C. C - More Malloc, Free  
   
 **man or help**  
@@ -77,3 +73,11 @@
 - `exit(3)`: cause normal process termination  
 - `calloc`: a memory allocator  
 - `realloc`: memory reallocator  
+   
+## 0x0D. C - Preproccesor  
+  
+**man or help**  
+  
+## 0x0E. C - Structures, typedef  
+  
+**man or help** 
