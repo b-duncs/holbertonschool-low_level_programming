@@ -7,6 +7,7 @@
  *
  * Return: Nothing.
  */
+
 void print_name_as_is(char *name)
 {
     printf("Hello, my name is %s\n", name);
@@ -18,6 +19,7 @@ void print_name_as_is(char *name)
  *
  * Return: Nothing.
  */
+
 void print_name_uppercase(char *name)
 {
     unsigned int i;
@@ -43,6 +45,7 @@ void print_name_uppercase(char *name)
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
     print_name("Bob", print_name_as_is);
