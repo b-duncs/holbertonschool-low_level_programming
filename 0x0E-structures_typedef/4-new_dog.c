@@ -18,15 +18,19 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int i;
 	int x;
 
-	for (namelen = 0; name[namelen] != '\0'; namelen++)
-		;
-	namelen++;
-	for (ownerlen = 0; owner[ownerlen] != '\0'; ownerlen++)
-		;
-	ownerlen++;
+	for (namelen = 0; name[namelen] != '\0'; namelen++);
+	{
+		namelen++;
+	}
+	for (ownerlen = 0; owner[ownerlen] != '\0'; ownerlen++);
+	{
+		ownerlen++;
+	}
 	cpyname = malloc(sizeof(char) * namelen);
 	if (cpyname == NULL)
+	{
 		return (NULL);
+	}
 	cpyowner = malloc(sizeof(char) * ownerlen);
 	if (cpyowner == NULL)
 	{
