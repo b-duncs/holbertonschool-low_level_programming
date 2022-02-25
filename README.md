@@ -84,4 +84,10 @@
   
 ## 0x0F. C - Function Pointers  
   
-**man or help**   
+**man or help**  
+  
+## 0x10. C - Variadic Functions  
+  
+**man or help** 
+  
+* `stdarg`: variable argument lists    
