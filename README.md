@@ -90,10 +90,4 @@
   
 **man or help** 
   
-- `stdarg`: variable argument lists  
-  
-## 0x12. C - printf  
-  
-**man or help**  
-  
-- `printf(3)`: formatted output conversion       
+- `stdarg`: variable argument lists         
