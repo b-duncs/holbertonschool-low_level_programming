@@ -5,7 +5,7 @@
 **man or help**  
    
 - `gcc`: GNU project C and C++ compiler  
-- `printf (3)`: formatted output conversion  
+- `printf(3)`: formatted output conversion  
 - `puts`: output of characters and strings  
 - `putchar`: put a byte on a stdout stream  
    
