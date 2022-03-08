@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_list - program startup
  * @h: list being evaluated
