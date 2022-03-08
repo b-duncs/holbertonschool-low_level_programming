@@ -90,7 +90,13 @@
   
 **man or help** 
   
-- `stdarg`: variable argument lists  
+- `stdarg`: variable argument lists 
+  
+## 0x11. C - printf  
+  
+**man or help**  
+  
+- `printf(3)`: formatted output conversion   
   
 ## 0x12. C - Singly Linked Lists  
   
