@@ -100,4 +100,8 @@
   
 ## 0x12. C - Singly Linked Lists  
   
-**man or help**          
+**man or help**  
+  
+## 0x13. C - More Singly Linked Lists  
+  
+**man or help**  
