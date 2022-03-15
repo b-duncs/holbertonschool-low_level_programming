@@ -105,3 +105,18 @@
 ## 0x13. C - More Singly Linked Lists  
   
 **man or help**  
+  
+## 0x14. C - Bit Manipulation  
+  
+**man or help**  
+  
+## 0x15. C - File I/O  
+  
+**man or help**  
+  
+- `open`: open and possibly create a file  
+- `close`: close a file descriptor  
+- `read`: read from a file descriptor  
+- `write`: write to a file descriptor  
+- `dprintf`: print formatted output  
+  
