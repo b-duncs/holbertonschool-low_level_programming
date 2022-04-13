@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - program startup
- * @dlistint_t: list being evaluated
+ * @h: list being evaluated
 (*
  * Description: prints all the elements of a dlistint_t list)?
  * Return: return (0) is the required function signature
