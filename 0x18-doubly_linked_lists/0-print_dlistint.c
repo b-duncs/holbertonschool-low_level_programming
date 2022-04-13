@@ -8,7 +8,7 @@
  * Return: return (0) is the required function signature
  */
 
-size_t print_dlistint(const dlistint_t *h);
+size_t print_dlistint(const dlistint_t *h)
 {
 	size_t node = 0;
 
