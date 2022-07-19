@@ -1,6 +1,46 @@
 #include "main.h"
 
 /**
+ * new_buffer - program startup
+ * @file: text file
+(* Description: creates space for buffer)?
+ * Return: buffer
+ */
+
+char *new_buffer(char *file)
+{
+	char *buffer;
+
+	buffer = malloc(sizeof(char) * 1024);
+	if (buffer == NULL)
+	{
+		dprint(STDERR_FILENO, "Error: Can't write to %s\n", file);
+		exit(99);
+	}
+
+	return (buffer);
+}
+
+/**
+ * close_file - program startup
+ * @file: text file
+(* Description: closes the file
+ */
+
+void close_file(int file)
+{
+	int x;
+
+	x = close(file);
+
+	if (x == -1)
+	{
+		dprint(STDERR_FILENO, "Error: Can't close fd %d\n", file);
+		exit(100);
+	}
+}
+
+/**
  * main - program startup
  * @argc: argument count
  * @argv: argument vector
@@ -44,44 +84,4 @@ int main(int argc, char *argv[])
 	close_file(end);
 
 	return (0);
-}
-
-/**
- * new_buffer - program startup
- * @file: text file
-(* Description: creates space for buffer)?
- * Return: buffer
- */
-
-char *new_buffer(char *file)
-{
-	char *buffer;
-
-	buffer = malloc(sizeof(char) * 1024);
-	if (buffer == NULL)
-	{
-		dprint(STDERR_FILENO, "Error: Can't write to %s\n", file);
-		exit(99);
-	}
-
-	return (buffer);
-}
-
-/**
- * close_file - program startup
- * @file: text file
-(* Description: closes the file
- */
-
-void close_file(int file)
-{
-	int x;
-
-	x = close(file);
-
-	if (x == -1)
-	{
-		dprint(STDERR_FILENO, "Error: Can't close fd %d\n", file);
-		exit(100);
-	}
 }
