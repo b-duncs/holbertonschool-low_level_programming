@@ -10,7 +10,7 @@
 
 char *new_buffer(char *file);
 void close_file(int file);
-int main (int argc, char *argv[]);
+int main(int argc, char *argv[]);
 
 int main(int argc, char *argv[])
 {
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		exit (97);
+		exit(97);
 	}
 	buffer = new_buffer(argv[2]);
 	start = open(argv[1], O_RDONLY);
@@ -44,13 +44,20 @@ int main(int argc, char *argv[])
 		}
 		r = read(start, buffer, 1024);
 		end = open(argv[2], O_WRONLY | O_APPEND);
-	}while (r > 0);
+	} while (r > 0);
 	free(buffer);
 	close_file(start);
 	close_file(end);
 
 	return (0);
 }
+
+/**
+ * new_buffer - program startup
+ * @file: text file
+(* Description: creates space for buffer)?
+ * Return: buffer
+ */
 
 char *new_buffer(char *file)
 {
@@ -66,6 +73,12 @@ char *new_buffer(char *file)
 
 	return (buffer);
 }
+
+/**
+ * close_file - program startup
+ * @file: text file
+(* Description: closes the file
+ */
 
 void close_file(int file)
 {
