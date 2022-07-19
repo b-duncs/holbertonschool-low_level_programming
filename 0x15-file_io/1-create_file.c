@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * read_textfile - program startup
+ * create_file - program startup
  * @filename: text file
  * @text_content: a NULL terminated string to write to the file
 (* Description: creates a file)?
