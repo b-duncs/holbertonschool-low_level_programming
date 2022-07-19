@@ -8,10 +8,6 @@
  * Return: return (0) is the required function signature
  */
 
-char *new_buffer(char *file);
-void close_file(int file);
-int main(int argc, char *argv[]);
-
 int main(int argc, char *argv[])
 {
 	int start, end, r, w;
@@ -29,16 +25,14 @@ int main(int argc, char *argv[])
 	do {
 		if (start == -1 | r == -1)
 		{
-			dprintf(STDERR_FILENO, 
-					"Error: Can't read from file %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			free(buffer);
 			exit(98);
 		}
 		w = write(end, buffer, r);
 		if (end == -1 || w == -1)
 		{
-			dprint(STDERR_FILENO, 
-					"Error: Can't write to %s\n", argv[2]);
+			dprint(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			free(buffer);
 			exit(99);
 		}
@@ -66,8 +60,7 @@ char *new_buffer(char *file)
 	buffer = malloc(sizeof(char) * 1024);
 	if (buffer == NULL)
 	{
-		dprint(STDERR_FILENO, 
-				"Error: Can't write to %s\n", file);
+		dprint(STDERR_FILENO, "Error: Can't write to %s\n", file);
 		exit(99);
 	}
 
@@ -88,8 +81,7 @@ void close_file(int file)
 
 	if (x == -1)
 	{
-		dprint(STDERR_FILENO, 
-				"Error: Can't close fd %d\n", file);
+		dprint(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 		exit(100);
 	}
 }
