@@ -120,3 +120,6 @@
 - `write`: write to a file descriptor  
 - `dprintf`: print formatted output  
   
+## 0x18. C - Doubly Linked Lists  
+  
+**man or help**    
