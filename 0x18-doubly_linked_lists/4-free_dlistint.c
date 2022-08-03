@@ -7,14 +7,14 @@
  * Return: return (0) is the required function signature
  */
 
- void free_dlistint(dlistint_t *head)
- {
-   dlistint_t *buffer;
+void free_dlistint(dlistint_t *head)
+{
+	dlistint_t *buffer;
 
-   while (head)
-   {
-     buffer = head->next;
-     free(head);
-     head = buffer;
-   }
- }
+	while (head)
+	{
+		buffer = head->next;
+		free(head);
+		head = buffer;
+	}
+}
