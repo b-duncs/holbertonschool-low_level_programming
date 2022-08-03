@@ -9,21 +9,21 @@
 
 size_t print_dlistint_backward(const dlistint_t *h)
 {
-  size_t x, buffer;
+	size_t x, buffer;
 
-  if (h == NULL)
-  {
-    return (0);
-  }
-  for (x = 0; h->next != NULL; x++)
-  {
-    h = h->next;
-  }
-  buffer = x + 1;
-  for (x = x + 1; x > 0; x--)
-  {
-    printf("%d\n", h->n);
-    h = h->prev;
-  }
-  return (buffer);
+	if (h == NULL)
+	{
+		return (0);
+	}
+	for (x = 0; h->next != NULL; x++)
+	{
+		h = h->next;
+	}
+	buffer = x + 1;
+	for (x = x + 1; x > 0; x--)
+	{
+		printf("%d\n", h->n);
+		h = h->prev;
+	}
+	return (buffer);
 }
