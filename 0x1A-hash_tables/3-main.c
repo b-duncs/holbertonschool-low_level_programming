@@ -16,4 +16,3 @@ int main(void)
 		    hash_table_set(ht, "betty", "cool");
 		        return (EXIT_SUCCESS);
 }
-i
