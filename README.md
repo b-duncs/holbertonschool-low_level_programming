@@ -122,4 +122,12 @@
   
 ## 0x18. C - Doubly Linked Lists  
   
-**man or help**    
+**man or help**  
+  
+## 0x1A. C - Hash Tables  
+  
+**man or help**  
+  
+## 0x19. C - Stacks, Queues - LIFO, FIFO  
+  
+**man or help**      
