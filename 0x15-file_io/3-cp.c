@@ -1,72 +1,54 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <string.h>
 /**
- * closer - closes the file
- * @fd: file to close
- * Return: void
- */
-
-void closer(int fd)
-{
-	int i;
-
-	i = close(fd);
-
-	if (i == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
-		exit(100);
-	}
-}
-
-/**
- * argccheck - makes sure argc = 3
- * @argc: paramaters passed in CLI
- *
- */
-
-void argccheck(int argc)
-{
-	if (argc != 3)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-			exit(97);
-	}
-}
-
-/**
- * main - copies from one file to another
- * @argc: arguments passed
- * @argv: files to be copied
- * Return: 1 if success
- */
+ * main - Copies content of a file to another file
+ * @argc: Number of arguments
+ * @argv: Arguments
+ * Return: 1 if successful, -1 if failed
+ **/
 
 int main(int argc, char *argv[])
 {
-
-	int fromfile, tofile, writefile;
+	int fdfile1, fdfile2, cl, w, nchars = 1024;
 	char buffer[1024];
 
-	argccheck(argc);
-	fromfile = open(argv[1], O_RDONLY);
-	if (fromfile == -1)
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]),
-		exit(98);
-	tofile = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	if (tofile == -1)
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]),
-			exit(99);
-	while ((writefile = read(fromfile, buffer, 1024)) != 0)
+	if (argc != 3)
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
+	fdfile1 = open(argv[1], O_RDONLY);
+	fdfile2 = open(argv[2], O_RDWR | O_CREAT | O_TRUNC, 0664);
+	while (nchars == 1024)
 	{
-		if (writefile == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]),
+		nchars = read(fdfile1, buffer, 1024);
+		if (nchars == -1 || fdfile1 == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			exit(98);
-		if (write(tofile, buffer, writefile) != writefile)
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]),
+		}
+		w = write(fdfile2, buffer, nchars);
+		if (fdfile2 == -1 || w == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
+		}
 	}
-	closer(fromfile);
-	closer(tofile);
-
+	cl = close(fdfile1);
+	if (cl == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfile1);
+		exit(100);
+	}
+	cl = close(fdfile2);
+	if (cl == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fdfile2);
+		exit(100);
+	}
 	return (0);
 }
