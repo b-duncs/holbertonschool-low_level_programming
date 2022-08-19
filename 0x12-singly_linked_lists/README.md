@@ -1,4 +1,4 @@
-# 0x13. C - Singly Linked Lists
+# 0x12. C - Singly Linked Lists
 
 ## Resources:books:
 Read or watch:
