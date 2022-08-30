@@ -4,14 +4,13 @@
 Read or watch:
 * [Do I cast the result of malloc?](https://intranet.hbtn.io/rltoken/nB6RQ_TY9x1vdD6PBc91Gw)
 
----
 ## Learning Objectives:bulb:
 What you should learn from this project:
 
 * How to use the exit function
 * What are the functions calloc and realloc from the standard library and how to use them
 
-## Tasts:notebook:  
+## Tasks:notebook:  
   
 * `0-malloc_checked.c`: write a function that allocates memory using `malloc`  
 * `1-string_nconcat.c`: write a function concatenates two strings  
