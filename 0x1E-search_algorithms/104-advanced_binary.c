@@ -1,46 +1,74 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "search_algos.h"
-
 /**
-  * advanced_binary_recursive - Searches recursively
-  * @array: A pointer of the subarray to search.
-  * @left: The starting index.
-  * @right: The ending index.
-  * @value: The value to search for.
-  *
-  * Return: -1, the index where the value is located.
-  */
-int adv_binary_recursive(int *array, size_t left, size_t right, int value)
-{
-	size_t i;
+ * print_arr - Print the elements of an array
+ *
+ * @array: pointer to the first element of the array to print
+ * @size: size of elements in the array
+ */
 
-	if (right < left)
-		return (-1);
+void print_arr(int *array, size_t size)
+{
+	size_t i = 0;
 
 	printf("Searching in array: ");
-	for (i = left; i < right; i++)
+	while (i < size)
+	{
 		printf("%d, ", array[i]);
-	printf("%d\n", array[i]);
-
-	i = left + (right - left) / 2;
-	if (array[i] == value && (i == left || array[i - 1] != value))
-		return (i);
-	if (array[i] >= value)
-		return (adv_binary_recursive(array, left, i, value));
-	return (adv_binary_recursive(array, i + 1, right, value));
+		i++;
+	}
+	printf("%d", array[i]);
+	printf("\n");
 }
-
 /**
-  * advanced_binary - Searches for a value in a sorted array using advanced binary search.
-  * @array: A pointer to the first element of the array to search.
-  * @size: The size of the array.
-  * @value: The value to search for.
-  *
-  * Return: NULL, -1, the first index where the value is located.
-  */
+ * advanced_binary - function that searches for a value in a sorted array
+ * of integers using the Binary search algorithm
+ *
+ * @array: pointer to the first element of the array to search in
+ * @size: number of elements in array
+ * @value: value to search for
+ *
+ * Return: return the index where value is located
+ */
 int advanced_binary(int *array, size_t size, int value)
 {
-	if (!array || size == 0)
+	int l = 0, r = size - 1;
+
+	if (!array)
 		return (-1);
 
-	return (advanced_binary_recursive(array, 0, size - 1, value));
+	return (b_search(array, l, r, size, value));
+}
+/**
+ * b_search - function that searches for a value in a sorted array
+ * of integers using the Binary search algorithm
+ *
+ * @array: pointer to the first element of the array to search in
+ * @l: index of the first element of the array to search in
+ * @r: index of the last element of the array to search in
+ * @size: number of elements in array
+ * @value: value to search for
+ *
+ * Return: return the index where value is located
+ */
+int b_search(int *array, int l, int r, size_t size, int value)
+{
+	int p = 0;
+
+	if (l > r)
+		return (-1);
+
+	print_arr(&array[l], (r - l));
+	p = (l + r) / 2;
+
+	if (value == array[p] && array[p - 1] != value)
+		return (p);
+
+	if (value <= array[p])
+		r = p;
+	else
+		l = p + 1;
+
+	return (b_search(array, l, r, size, value));
 }
