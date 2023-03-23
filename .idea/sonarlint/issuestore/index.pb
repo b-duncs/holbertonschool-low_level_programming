@@ -19,15 +19,7 @@ J
 0x1E-search_algorithms/4-O,0/b/0b76166011f4b59b7fc58c1b3f44659d4bd0f5b2
 J
 0x1E-search_algorithms/6-O,a/e/aec69d863bdcef04035ef800a2109ff0083cc728
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 J
 0x1E-search_algorithms/5-O,d/0/d034b8ef4e3a89b093282953f1ab3106b6181e3e
 P
  0x1E-search_algorithms/README.md,7/b/7b6c094eb40c9d66ab548a118df56f3c0a4e4b14
-Q
-!0x1E-search_algorithms/104-main.c,a/d/adaedf36e26b2a1527d7f1cbc1b598d7ab807d34
-\
-,0x1E-search_algorithms/104-advanced_binary.c,f/4/f432baaaf40d2ff853d7dfff4d4aff3b67b67910
-U
-%0x1E-search_algorithms/search_algos.h,3/d/3dd9a9ab115917f1b6b8249a8bedb960ab710d62
